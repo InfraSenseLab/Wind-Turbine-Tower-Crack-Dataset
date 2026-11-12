@@ -1,4 +1,5 @@
-# Wind Turbine Tower Crack Dataset
+**简体中文** | [English](README.en.md)
+
 # 风电塔筒裂缝数据集
 
 面向无人机巡检场景的混凝土风电塔筒裂缝图像数据集，用于裂缝网格分类与识别研究。本仓库提供数据集介绍、标签规则、相关论文及数据下载入口。
@@ -132,10 +133,3 @@ DOI：[10.1177/13694332251344664](https://doi.org/10.1177/13694332251344664)
   url = {https://doi.org/10.1177/13694332251344664}
 }
 ```
-
-## English overview
-
-This repository documents a UAV image dataset for crack assessment of concrete wind turbine towers and links to the related 2025 paper. The prepared `data_split` collection contains **3,792 RGB images (341 × 227 pixels)** and matching text labels. Each label row describes a crack-positive grid cell: **1 means crack present**, followed by normalized cell center coordinates and cell size.
-
-**Download:** [Baidu Netdisk](https://pan.baidu.com/s/1yheaGH2gGWVz1JL7D6NhmA?pwd=bsyx), access code: `bsyx`.  
-**Paper:** [DOI: 10.1177/13694332251344664](https://doi.org/10.1177/13694332251344664).
