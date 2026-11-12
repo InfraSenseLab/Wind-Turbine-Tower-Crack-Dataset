@@ -30,8 +30,6 @@
 
 这里的 **16 × 16 是原图到小图的切分网格**；标签行描述的是每张小图内部有裂缝的标注网格。
 
-**版本说明：**论文描述的实验数据集包含 3,750 张小图，按 6:2:2 划分为训练、验证、测试集（2,250 / 750 / 750）。本次根据现有标签恢复并整理得到 3,792 张小图，数量以本次整理结果为准；不要将其直接视为论文实验划分。
-
 ### 目录结构
 
 ```text
@@ -120,8 +118,6 @@ DOI：[10.1177/13694332251344664](https://doi.org/10.1177/13694332251344664)
 4. **增量裂缝投影**：将二维裂缝信息映射到三维表面，处理相邻图像的重叠区域，减少裂缝重复计数。
 5. **参数量化与评估**：结合空间模型开展裂缝定位和参数计算，为结构维护提供依据。
 
-论文表 3 报告所提网络的 AP 为 0.92、Dice 为 0.83。上述数值为论文实验结果，不是本仓库对整理后数据集重新训练或评测的结果。
-
 ### 引用
 
 使用相关数据和研究方法时，请引用：
@@ -140,8 +136,6 @@ DOI：[10.1177/13694332251344664](https://doi.org/10.1177/13694332251344664)
 ## English overview
 
 This repository documents a UAV image dataset for crack assessment of concrete wind turbine towers and links to the related 2025 paper. The prepared `data_split` collection contains **3,792 RGB images (341 × 227 pixels)** and matching text labels. Each label row describes a crack-positive grid cell: **1 means crack present**, followed by normalized cell center coordinates and cell size.
-
-The paper reports an experimental dataset of 3,750 images; the prepared collection documented here contains 3,792 images recovered from the available labels. These counts and splits should be distinguished.
 
 **Download:** [Baidu Netdisk](https://pan.baidu.com/s/1yheaGH2gGWVz1JL7D6NhmA?pwd=bsyx), access code: `bsyx`.  
 **Paper:** [DOI: 10.1177/13694332251344664](https://doi.org/10.1177/13694332251344664).
